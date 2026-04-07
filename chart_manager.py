@@ -32,7 +32,7 @@ UP_COLOR   = "#55A868"   # green  — used for rising candles
 DOWN_COLOR = "#C44E52"   # red    — used for falling candles
 
 
-def _style_axes(fig: Figure, ax) -> None:
+def _style_axes(fig: Figure, ax: plt.Axes) -> None:
     """Apply a clean, minimal style to any figure/axes pair."""
     fig.patch.set_facecolor("#FFFFFF")
     ax.set_facecolor("#F8F9FA")
