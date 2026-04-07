@@ -1,0 +1,19 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env/
+venv/
+venv.bak/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# General Python artifacts
+*.egg-info/
+.dist-info/
+*.egg
+.DS_Store
